@@ -5,7 +5,11 @@
 % using EKF simulations and visualized to evaluate how ocean currents influence 
 % navigation performance.
 
-clear; close all;
+% Note: Run 'EKF_SIMULATOR.m' first to ensure all necessary data is loaded.
+
+
+clear;               % Clears all params in Workspace
+% close all;         % Optional: Uncomment to close all existing figures before running.
 
 load('u_tilde_small.mat')
 load('psi_tilde_small.mat')
