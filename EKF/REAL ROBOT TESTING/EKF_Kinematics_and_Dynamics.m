@@ -46,12 +46,12 @@ x_hat_store(:, 1) = x_hat;
 P = eye(5) * 0.1; 
 
 % Process noise covariance matrix Q
-Q = eye(5) * 1;
-Q = diag([0.1, 0.01, 0.01, 0.1, 0.1]); 
+% Q = eye(5) * 1;
+% Q = diag([0.1, 0.01, 0.01, 0.1, 0.1]); 
 
 % Measurement noise covariance matrix R.
-R = eye(9) * 0.05;
-R = diag([0.1, 0.1, 0.01, 0.01, 0.02, 0.01, 0.01, 0.02, 0.005]);
+% R = eye(9) * 0.05;
+% R = diag([0.1, 0.1, 0.01, 0.01, 0.02, 0.01, 0.01, 0.02, 0.005]);
 
 % Test 1: Trying to better alpha estimates:
 % lower Q(1,1) % Trust the mathematical model 
