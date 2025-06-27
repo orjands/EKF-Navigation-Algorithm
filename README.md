@@ -1,6 +1,6 @@
 # Remora Rover Navigation – Master Thesis 2025
 
-This repository contains the complete code developed as part of Ørjan D. Strand’s master’s thesis (Spring 2025), focused on model-based navigation for Remora Robotics’ underwater net-grooming robot, the **Remora Rover**. The goal was to develop and evaluate an Extended Kalman Filter (EKF)-based navigation system capable of operating in dynamic and sensor-noisy aquaculture environments.
+This repository contains the complete code developed as part of my master’s thesis (Spring 2025), focused on model-based navigation for Remora Robotics’ underwater net-grooming robot, the **Remora Rover**. The goal was to develop and evaluate an Extended Kalman Filter (EKF)-based navigation system capable of operating in dynamic and sensor-noisy aquaculture environments.
 
 ## 🚀 Project Overview
 
